@@ -1,19 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
+  <body>
+
     <header>
-        <h1>
-            Formulário Condicional
-        </h1>
+      <h1>Formulário Condicional</h1>
     </header>
-    
-<script src="script.js"></script>    
-</body>
+
+    <div id="pergunta_um">
+      <h1>Qual é sua profissão?</h1>
+      <button class="web" onclick="mostrarPerguntaDois()">Web</button>
+      <button class="moblie">Moblie</button>
+    </div>
+
+    <div id="pergunta_dois">
+      <h1>Qual área deseja atuar?</h1>
+      <button class="back" onclick="mostrarPerguntaTres()">Backend</button>
+      <button class="front">Frontend</button>
+    </div>
+
+    <div id="pergunta_tres">
+        <h1>Qual vantagem você deseja aprender <br> em Backend?</h1>
+        <button onclick="mostrarRespostaTresA()">Rapidez</button>
+        <button onclick="mostrarRespostaTresB()">Programação Intuitiva</button>
+        <button onclick="mostrarRespostaTresC()">Fácil integração</button>
+      </div>
+
+      <div id="resposta_back_rapidez">
+        <p>Ótima escolha, essas são  as 3 melhores linguagens de acordo com a vantagem escolhida:</p>
+            <p>C/C++</p>
+            <p>Rust</pss=>
+            <p>Go</p>
+      </div>
+
+      <div id="resposta_back_prog_int">
+        <p>Ótima escolha, essas são  as 3 melhores linguagens de acordo com a vantagem escolhida:</p>
+            <p>Python</p>
+            <p>JavaScript</pss=>
+            <p>Scratch</p>
+      </div>
+
+      <div id="resposta_back_facil_int">
+        <p>Ótima escolha, essas são  as 3 melhores linguagens de acordo com a vantagem escolhida:</p>
+            <p>Python</p>
+            <p>JavaScript</pss=>
+            <p>Java</p>
+      </div>
+
+    <script src="script.js"></script>
+  </body>
 </html>

@@ -3,12 +3,144 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Arial Narrow Bold', sans-serif;
+    
 }
 
+
+body{
+    background-color: rgb(197, 224, 247);
+}
 header{
-    background-color: black;
     color: aliceblue;
-    font-size: 20px;
+    background: black;
+    font-size: 13px;
     font-weight: 700;
     padding: .5vw;
+}
+
+#pergunta_um {
+    display: block;
+    width: auto;
+    height: auto;
+    color: black;
+    padding: 20px;
+
+    font-size: 15px;
+    text-align: center;
+}
+
+#pergunta_dois{
+    display: none;
+    width: auto;
+    height: auto;
+    color: black;
+    padding: 20px;
+    text-align: left;
+    margin-left: 16vw;
+    font-size: 13px;
+
+    max-width: max-content;
+    text-align: center;
+}
+
+#pergunta_um > button{
+    margin-top: 10px;
+    width: 4vw;
+    height: 2vw;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+    font-size: 16px;
+    color: aliceblue;
+    font-weight: 300;
+    background-color: #0C70F2;
+}
+
+#pergunta_dois > button{
+    margin-top: 10px;
+    width: 5.3vw;
+    height: 2vw;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+    font-size: 16px;
+    color: aliceblue;
+    font-weight: 300;
+    background-color: #0C70F2;
+}
+
+
+
+#pergunta_tres{
+    display: none;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    color: black;
+    padding: 20px;
+    margin-left: 8vw;
+    font-size: 13px;
+
+    max-width: max-content;
+    text-align: center;
+    align-items: center;
+}
+
+#pergunta_tres > button{
+    margin-top: 2px;
+    width: 7vw;
+    height: 3vw;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+    font-size: 16px;
+    color: aliceblue;
+    font-weight: 300;
+    background-color: #0C70F2;
+}
+
+
+#resposta_back_rapidez{
+    display: none;
+    width: auto;
+    height: auto;
+    color: black;
+    padding: 20px;
+    margin-left: 5vw;
+    font-size: 19px;
+
+    max-width: max-content;
+    text-align: center;
+    align-items: center;
+}
+
+#resposta_back_prog_int{
+    display: none;
+    width: auto;
+    height: auto;
+    color: black;
+    padding: 20px;
+    margin-left: 5vw;
+    font-size: 19px;
+
+    max-width: max-content;
+    text-align: center;
+    align-items: center;
+}
+
+#resposta_back_facil_int{
+    display: none;
+    width: auto;
+    height: auto;
+    color: black;
+    padding: 20px;
+    margin-left: 5vw;
+    font-size: 19px;
+
+    max-width: max-content;
+    text-align: center;
+    align-items: center;
 }
