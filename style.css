@@ -80,13 +80,43 @@ header{
     height: auto;
     color: black;
     padding: 20px;
-    margin-left: 8vw;
-    font-size: 13px;
+    margin-left: 4vw;
+    font-size: 10px;
 
     max-width: max-content;
     text-align: center;
     align-items: center;
 }
+
+#pergunta_tres_front{
+    display: none;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    color: black;
+    padding: 20px;
+    margin-left: 32.4vw;
+    font-size: 10px;
+
+    max-width: max-content;
+    text-align: center;
+    align-items: center;
+}
+
+#pergunta_tres_front > button{
+    margin-top: 2px;
+    width: 7.5vw;
+    height: 3vw;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+    font-size: 16px;
+    color: aliceblue;
+    font-weight: 300;
+    background-color: #0C70F2;
+}
+
 
 #pergunta_tres > button{
     margin-top: 2px;
@@ -102,6 +132,7 @@ header{
     background-color: #0C70F2;
 }
 
+/* RESPOSTA BACKEND */
 
 #resposta_back_rapidez{
     display: none;
@@ -109,7 +140,7 @@ header{
     height: auto;
     color: black;
     padding: 20px;
-    margin-left: 5vw;
+    margin-left: 2vw;
     font-size: 19px;
 
     max-width: max-content;
@@ -123,7 +154,7 @@ header{
     height: auto;
     color: black;
     padding: 20px;
-    margin-left: 5vw;
+    margin-left: 2vw;
     font-size: 19px;
 
     max-width: max-content;
@@ -137,7 +168,51 @@ header{
     height: auto;
     color: black;
     padding: 20px;
-    margin-left: 5vw;
+    margin-left: 2vw;
+    font-size: 19px;
+
+    max-width: max-content;
+    text-align: center;
+    align-items: center;
+}
+
+/* RESPOSTA FRONTEND */
+
+#resposta_front_bb{
+    display: none;
+    width: auto;
+    height: auto;
+    color: black;
+    padding: 20px;
+    margin-left: 2vw;
+    font-size: 19px;
+
+    max-width: max-content;
+    text-align: center;
+    align-items: center;
+}
+
+#resposta_front_facil_compr{
+    display: none;
+    width: auto;
+    height: auto;
+    color: black;
+    padding: 20px;
+    margin-left: 2vw;
+    font-size: 19px;
+
+    max-width: max-content;
+    text-align: center;
+    align-items: center;
+}
+
+#resposta_facil_maior_comut{
+    display: none;
+    width: auto;
+    height: auto;
+    color: black;
+    padding: 20px;
+    margin-left: 2vw;
     font-size: 19px;
 
     max-width: max-content;

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>Quationário</title>
   </head>
 
   <body>
@@ -22,8 +22,10 @@
     <div id="pergunta_dois">
       <h1>Qual área deseja atuar?</h1>
       <button class="back" onclick="mostrarPerguntaTres()">Backend</button>
-      <button class="front">Frontend</button>
+      <button class="front" onclick="mostrarPerguntaTresFront()">Frontend</button>
     </div>
+
+    <!-- PERGUNTAS BACKEND  / FRONTEND-->
 
     <div id="pergunta_tres">
         <h1>Qual vantagem você deseja aprender <br> em Backend?</h1>
@@ -32,26 +34,59 @@
         <button onclick="mostrarRespostaTresC()">Fácil integração</button>
       </div>
 
+      <div id="pergunta_tres_front">
+        <h1>Qual vantagem você deseja aprender <br> em Frontend?</h1>
+        <button onclick="mostrarRespostaTresAFront()">Várias Bibliotecas </button>
+        <button onclick="mostrarRespostaTresBFront()">Fácil Compreensão</button>
+        <button onclick="mostrarRespostaTresCFront()">Maior Comunidade</button>
+      </div>
+
+
+      <!-- RESPOSTAS BACKEND -->
       <div id="resposta_back_rapidez">
-        <p>Ótima escolha, essas são  as 3 melhores linguagens de acordo com a vantagem escolhida:</p>
+        <p >Ótima escolha, essas são  as 3 melhores linguagens de acordo com a vantagem escolhida:</p>
             <p>C/C++</p>
-            <p>Rust</pss=>
+            <p>Rust</p>
             <p>Go</p>
       </div>
 
       <div id="resposta_back_prog_int">
         <p>Ótima escolha, essas são  as 3 melhores linguagens de acordo com a vantagem escolhida:</p>
             <p>Python</p>
-            <p>JavaScript</pss=>
+            <p>JavaScript</p>
             <p>Scratch</p>
       </div>
 
       <div id="resposta_back_facil_int">
         <p>Ótima escolha, essas são  as 3 melhores linguagens de acordo com a vantagem escolhida:</p>
             <p>Python</p>
-            <p>JavaScript</pss=>
+            <p>JavaScript</p>
             <p>Java</p>
       </div>
+
+      <!-- RESPOSTAS FRONTEND -->
+      <div id="resposta_front_bb">
+        <p>Ótima escolha, essas são  as 3 melhores linguagens de acordo com a vantagem escolhida:</p>
+            <p>React (JavaScript)</p>
+            <p>Vue (Javascript)</p>
+            <p>Angular (Typescript)</p>
+      </div>
+
+      <div id="resposta_front_facil_compr">
+        <p>Ótima escolha, essas são  as 3 melhores linguagens de acordo com a vantagem escolhida:</p>
+            <p>JavaScript</p>
+            <p>Python</p>
+            <p>Typescript</p>
+      </div>
+
+      <div id="resposta_facil_maior_comut">
+        <p>Ótima escolha, essas são  as 3 melhores linguagens de acordo com a vantagem escolhida:</p>
+            <p>JavaScript</p>
+            <p>Python</p>
+            <p>React</p>
+      </div>
+
+
 
     <script src="script.js"></script>
   </body>
