@@ -1,7 +1,10 @@
 Fala pessoal! Segue um desafio feito apenas com HTML, CSS e JavaScript. <br>
 A ideia é criar um formulário interativo que responda conforme as escolhas do participante. :smile:
 
+Link Hospedado:
+https://case-4.vercel.app/
 
+OBS: Não sei devido a que mas na vercel apenas o lado esquerdo, referente a WEB funciona, estou verificando as possíves causas.
 
 ## Tela Inicial
 ![image](https://github.com/MatheusNascimento99/Case-4/assets/139829100/8c32f741-222e-4a29-8e27-fd2eedd208af)
